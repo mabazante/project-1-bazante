@@ -1,0 +1,88 @@
+html, body {
+  padding: 0px;
+  padding-bottom: 100px;
+  margin: 0px;
+  font-family: 'Helvetica';
+}
+
+.container-fluid div {
+  /*background-color: #333;*/
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+div.container {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+div.dark {
+  background-color: #aaa;
+}
+
+div.light {
+  background-color: #ccc;
+}
+
+.smaller {
+  font-size: 0.5em;
+  width: 10em;
+}
+
+.root-size {
+  font-size: 1rem;
+}
+
+.smaller-root {
+  font-size: 0.5rem;
+}
+
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.logos {
+  width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+}
+
+.margin-top { margin-top:40px; }
+.margin-sides { margin-left:20px;
+                margin-right: 20px;
+                  }
+.margin-topimage {margin-top: 20px; }
+.padding {padding-left: 10px;}
+
+.border-top { border-top: 1px solid #ccc;}
+.border-topheavy { border-top: 3px solid #ccc;}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .width-100 {
+    width: 400px;
+  }
+}
+
+p {
+font-size:14px;
+line-height:1.6;
+margin-bottom:20px;
+}
+
+br {
+padding-top: 10px;
+}
